@@ -1,0 +1,123 @@
+/* ===== Global Styles ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* ===== Header ===== */
+header {
+    text-align: center;
+    background: #111;
+    color: white;
+    padding: 40px 20px;
+    border-radius: 10px;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+header .tagline {
+    font-style: italic;
+    margin-top: 10px;
+}
+
+/* ===== About Section ===== */
+#about {
+    display: flex;
+    align-items: center;
+    margin: 30px 0;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.bio p {
+    margin-top: 10px;
+}
+
+/* ===== Skills Section ===== */
+#skills {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+#skills ul {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+/* ===== Projects Section ===== */
+#projects {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+.project {
+    margin-bottom: 15px;
+}
+
+.project h3 {
+    color: #007BFF;
+}
+
+/* ===== Resume Section ===== */
+#resume {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+#resume a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* ===== Contact Section ===== */
+#contact {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+#contact a {
+    color: #007BFF;
+}
+
+/* ===== Footer ===== */
+footer {
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    background: #111;
+    color: white;
+    border-radius: 10px;
+}
+
+footer a {
+    color: #00FFCC;
+    text-decoration: none;
+}
