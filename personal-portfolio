@@ -1,1 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ===== HEADER ===== -->
+    <header>
+        <h1>Jatin Kumar</h1>
+        <p class="tagline">Empowering People Through Technology & Social Good</p>
+    </header>
+
+    <!-- ===== ABOUT ===== -->
+    <section id="about">
+        <img src="assets/image.jpeg" alt="Profile Photo" class="profile-img">
+        <div class="bio">
+            <h2>About Me</h2>
+            <p>Hello! I am Jatin Kumar, a passionate web developer and community contributor.
+                I believe in building technology that not only solves problems but also
+                empowers people for social good.</p>
+        </div>
+    </section>
+
+    <!-- ===== SKILLS ===== -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Languages : Languages: HTML5, CSS3, JavaScript (ES6+), TypeScript, Java, Python (AI) </li>
+            <li>Frameworks & Libraries: React.js, Next.js, Tailwind CSS, Bootstrap, Node.js</li>
+            <li>Tools & Platforms: Git, GitHub, VS Code, Chrome DevTools, Netlify, Vercel</li>
+            <li>Database : MongoDB, PostgreSQL</li>
+            <li>Other Skills: Responsive Web Design, REST API Integration (Figma), Python (Django), OOP, DSA</li>
+        </ul>
+    </section>
+
+    <section>
+
+    </section>
+
+    <!-- ===== PROJECTS ===== -->
+    <section id="projects">
+        <div class="project">
+            <h3>To-Do List Web App</h3>
+            <p>A task management app built with React, Tailwind CSS, and JavaScript.</p>
+            <p>Built a CRUD-based task management app with local storage persistence.</p>
+            <p>Implemented task edit/delete features with a simple and responsive UI.</p>
+        </div>
+
+        <div class="project">
+            <h3>Portfolio Website</h3>
+            <p>My personal portfolio website showcasing my projects and skills.</p>
+            <p>Designed and developed a responsive portfolio using HTML, CSS3.</p>
+            <p>Integrated smooth scrolling and interactive elements for better user experience.</p>
+        </div>
+    </section>
+
+    <!-- ===== RESUME ===== -->
+    <section id="resume">
+        <h2>Resume</h2>
+        <a href="assets/resume.pdf" download>Download My Resume (PDF)</a>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:mrbansal157134@email.com">mrbansal157134@email.com</a></p>
+        <p>Phone: +91 98781 87228</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/jatin-kumar-157134"
+                target="_blank">linkedin.com/in/jatin-kumar-157134</a></p>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <p>&copy; 2025 Jatin Kumar | All Rights Reserved</p>
+        <p>Supported by <a href="https://jamunafoundation.org" target="_blank">Jamuna Foundation</a></p>
+    </footer>
+
+</body>
+
+</html>
